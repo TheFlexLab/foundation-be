@@ -1,0 +1,66 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+    title Node.js with TailwindCSS, Express and Pug
+    link(href="./styles/style.css", rel="stylesheet") 
+  body(class="bg-gray-400 h-full")
+    header(class="bg-blue-100 flex justify-center items-center h-14 sm:h-20")
+      img(src="/assets/logo.svg", alt="Centered Image", class="h-4 sm:h-6")
+    
+    section(class="bg-white")
+        div(class="max-w-[840px] mx-auto bg-white border-b-[4px] border-[#EFEEEA] p-4 sm:p-8 flex flex-col gap-5")
+            h1(class="text-[15px] sm:text-[20px] leading-normal font-semibold text-[#333] text-center") Discover the Hottest Posts of the Week and Earn FDX Tokens! 🎉
+            p(class="text-[15px] sm:text-[16.667px] leading-normal font-normal text-[#333] text-center") We've got some exciting new posts from the past week waiting for you! 🚀 Dive into the latest discussions, share your thoughts, and make your voice heard. Not only will you be part of the conversation, but you'll also earn FDX tokens for every contribution you make! 💰✨
+            p(class="text-[15px] sm:text-[16.667px] leading-normal font-normal text-[#333] text-center") Whether it's asking questions, sharing insights, or reacting to others’ ideas—your participation matters. Don’t miss out on this opportunity to engage with the community and get rewarded!
+                           //- span(class="text-[#2230F6] text-[14.583px]")  https://on.foundation.com
+            h1(class="text-[15px] sm:text-[20px] leading-normal font-semibold text-[#333]") Check out the posts below and start earning your FDX today!  ⬇️
+            //- ul(class='list-disc ml-5 text-[15px] sm:text-[16.667px] leading-normal font-normal text-[#333]')
+            //-     li Perceptions of Vice Presidential Qualities
+            //-     li Perceptions of Vice Presidential Qualities
+            //-     li Perceptions of Vice Presidential Qualities
+            //-     li Perceptions of Vice Presidential Qualities
+            //- p(class="text-[15px] sm:text-[16.667px] leading-normal font-normal text-[#666] text-center") here we have SEO Description
+            //- div(class="flex justify-center")
+            //-     button(class="bg-blue-100 text-white text-[15px] sm:text-[20px] leading-normal font-semibold py-3 max-w-[260px] w-full rounded-2xl") Read More
+
+    section(class="mt-[15px] px-4")
+      div(class='rounded-lg border border-gray-250 bg-white max-w-[632px] mx-auto')
+        div(class='flex items-center justify-between border-b-2 border-gray-250 px-[10px] py-[5px] sm:px-5 sm:py-[11px]')
+          div(class="flex items-center gap-2")
+            img(src="/assets/everyone.svg", alt="everyone", class="h-[15px] sm:h-6")
+            h1(class='text-[9.6px] sm:text-[20px] leading-normal font-normal text-gray-900') Everyone
+          div(class="flex items-center gap-2")
+            img(src="/assets/clock.svg", alt="clock", class="h-[15px] sm:h-6")
+            h1(class='text-[9.6px] sm:text-[20px] leading-normal font-normal text-gray-900') 28 days ago
+        div(class='pt-2 sm:pt-[16px] px-[14px] sm:px-[40px]') 
+          h1(class='font-semibold text-gray-900 text-[12px] leading-normal sm:text-[1.25rem] sm:leading-[23px]') Which has the highest quality protein content?
+        div(class='mt-6 sm:mt-[30px] mx-7 sm:mx-10 flex flex-col gap-[5.7px] sm:gap-[10px]') 
+          div(class='border-l-[14px] sm:border-l-[20px] border-y-2 border-r-2 border-[#DEE6F7] rounded-md sm:rounded-lg py-[6px] px-2 sm:p-[11px]')
+            h1(class='text-accent-600 text-[8.6px] sm:text-[19px] leading-normal sm:leading-[23px]') Which has the highest quality protein content?
+          div(class='border-l-[14px] sm:border-l-[20px] border-y-2 border-r-2 border-[#DEE6F7] rounded-md sm:rounded-lg py-[6px] px-2 sm:p-[11px]')
+            h1(class='text-accent-600 text-[8.6px] sm:text-[19px] leading-normal sm:leading-[23px]') Which has the highest quality protein content?
+          div(class='border-l-[14px] sm:border-l-[20px] border-y-2 border-r-2 border-[#DEE6F7] rounded-md sm:rounded-lg py-[6px] px-2 sm:p-[11px]')
+            h1(class='text-accent-600 text-[8.6px] sm:text-[19px] leading-normal sm:leading-[23px]') Which has the highest quality protein content?
+        h1(class='font-semibold text-[#4A8DBD] text-[14px] sm:text-[1.25rem] leading-[23px] text-center my-6 sm:my-[30px] hover:underline cursor-pointer') Participate and earn 25 FDX
+    
+    
+    section(class='bg-white border-t-[4px] border-[#EFEEEA] p-4 sm:p-8 mt-[15px]')
+        h1(class='font-bold text-[#241C15] text-[1.25rem] leading-normal') Disclaimers
+        ol(class='list-decimal list-inside')
+            li(class='text-[#241C15] text-[16px] leading-normal italic') SMS is available as an add-on to US paid plans only and SMS credits are added to your account after purchase. Application and agreement to terms is required before purchasing credits. Credits are issued monthly and unused credits expire and do not roll over. Pricing varies. See terms for details.
+            li(class='text-[#241C15] text-[16px] leading-normal italic') Based on self-reported worldwide numbers of customers 2021/2022.
+            li(class='text-[#241C15] text-[16px] leading-normal italic') Availability of features and functionality varies by plan type..
+
+    footer(class="bg-blue-100 flex flex-col sm:flex-row justify-between gap-2 p-4 items-center sm:h-20 sm:px-8")
+        img(src="/assets/logo.svg", alt="Centered Image", class="h-5")
+        ul(class="flex gap-3 text-white")
+            li(class="text-sm underline cursor-pointer") Privacy Policy
+            li(class="text-sm underline cursor-pointer") Terms & Conditions
+            li(class="text-sm underline cursor-pointer") Contact Us
+
+    section(class="bg-white p-4")
+       p(class="text-center text-gray-700 text-[14px] sm:text-[16.667px] leading-normal font-normal") 2023 © On Foundation. All rights reserved.
+       p(class="text-center text-gray-700 text-[14px] sm:text-[16.667px] leading-normal font-normal underline cursor-pointer") Unsubscribe
