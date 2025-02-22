@@ -33,9 +33,9 @@ const initializeConnections = async () => {
     }
   });
 
-    app.get("/", async (req, res) => {
-    res.status(200).json({message: "Hello World"});
-  });
+app.get('/', (req, res) => {
+  res.send('Hello World');
+});
 
   app.listen(port, "0.0.0.0", () => {
     console.log("Server is listening on port:", port);
